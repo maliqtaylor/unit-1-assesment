@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: auto;
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+}
+
+button{
+    height: 75px;
+    width: 75px;
+    background-color: gray;
+    color: white;
+    font-size: 2em;
+    border-radius: 15%;
+    border: gray;
+}
+
+input{
+    width: 100px;
+    height: 75px;
+    border-radius: 15%;
+    text-align: center;
+}
+
+button:hover {
+  background-color: white;
+  color: gray;
+  border: solid black 1px;
+}
+
+#operationRow{
+    display: flex;
+    margin-bottom: auto;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+#sub{
+    margin-right: 5vw;
+}
+
+#add{
+    margin-left: 5vw;
+}
+
+.negative{
+    color: red;
+}
